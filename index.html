@@ -634,6 +634,123 @@ px rgba(0, 102, 204, 0.7); }
         right: 24px;
       }
     }
+    /* Enhanced Mobile Responsiveness */
+@media (max-width: 480px) {
+  .name { 
+    font-size: 28px !important; 
+    line-height: 1.2;
+  }
+  
+  .title { 
+    font-size: 18px; 
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .initials {
+    font-size: 40px;
+  }
+  
+  .nav-name {
+    display: none; /* Hide name on very small screens */
+  }
+  
+  .profile-card {
+    padding: 32px 24px;
+  }
+  
+  .timeline {
+    padding-left: 30px;
+  }
+  
+  .timeline-marker {
+    left: -32px;
+    width: 12px;
+    height: 12px;
+  }
+  
+  .timeline-content {
+    padding: 20px;
+  }
+  
+  .timeline-content h3 {
+    font-size: 20px;
+  }
+  
+  .about p,
+  .timeline-content .company {
+    font-size: 16px;
+  }
+  
+  .education-card {
+    padding: 32px 24px;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .skill-tag {
+    padding: 16px;
+    font-size: 14px;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .chat-fab {
+    width: 56px;
+    height: 56px;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .chat-menu {
+    width: calc(100vw - 32px);
+    right: 16px;
+    bottom: 90px;
+  }
+}
+
+/* Tablet Landscape */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+  
+  .timeline {
+    max-width: 700px;
+  }
+  
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Large Screens */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+  
+  .name {
+    font-size: 56px;
+  }
+  
+  .about p {
+    font-size: 20px;
+  }
+}
+
   </style>
 </head>
 <body>
