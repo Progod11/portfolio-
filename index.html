@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nitesh Mishra - Professional Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Splash Screen -->
+  <div id="splash-screen">
+    <div class="splash-content">
+      <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+      <h2>Nitesh Mishra</h2>
+      <p>Loading Portfolio...</p>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-left">
+        <div class="nav-profile">
+          <div class="nav-photo">
+            <img src="your-photo.jpg" alt="Nitesh" style="display:none;" onload="this.style.display='block'; this.parentElement.querySelector('.nav-initials').style.display='none'">
+            <span class="nav-initials">NM</span>
+          </div>
+          <span class="nav-name">Nitesh Mishra</span>
+        </div>
+      </div>
+      <div class="nav-right">
+        <button class="theme-toggle" id="themeToggle">
+          <svg class="sun-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            ircle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <svg class="moon-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-content">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="profile-card">
+          <div class="profile-image">
+            <img id="profilePhoto" src="your-photo.jpg" alt="Nitesh Mishra" style="display:none;" onload="this.style.display='block'; this.nextElementSibling.style.display='none'">
+            <div class="initials">NM</div>
+          </div>
+          <h1 class="name">Nitesh Mishra</h1>
+          <p class="title">Hub Incharge at Flipkart</p>
+          <p class="location">📍 Surat, Gujarat, India</p>
+          <div class="badge">Open to Work</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>Looking for a challenging position in an organization where I can apply my expertise in logistics and supply chain. Good analytical ability, result-oriented professional with a proven record of enhancing productivity and profitability while reducing cost. Strong interpersonal skills that contribute to the development of highly effective teams and efficient business operations through effective training & motivating. Willingness to accept responsibility beyond the job description.</p>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience">
+      <div class="container">
+        <h2>Professional Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Hub Incharge</h3>
+              <p class="company">Flipkart</p>
+              <p class="duration">Aug 2021 - Present · 4 yrs 7 mos</p>
+              <p class="location">Surat, Gujarat, India</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Assistant Manager</h3>
+              <p class="company">Reliance Retail</p>
+              <p class="duration">Nov 2020 - Jul 2021 · 9 mos</p>
+              <p class="location">Gurugram, Haryana, India</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Team Lead</h3>
+              <p class="company">SPOTON LOGISTICS PVT LTD</p>
+              <p class="duration">Mar 2020 - Nov 2020 · 9 mos</p>
+              <p class="location">Surat, Gujarat, India</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Senior Executive</h3>
+              <p class="company">Rivigo Service Pvt Limited</p>
+              <p class="duration">Mar 2018 - Mar 2020 · 2 yrs 1 mo</p>
+              <p class="location">Greater Surat Area</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Supply Chain Associate</h3>
+              <p class="company">Future Supply Chain Solutions Limited</p>
+              <p class="duration">Apr 2016 - Mar 2018 · 2 yrs</p>
+              <p class="location">Vapi, Gujarat, India</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-card">
+          <h3>Veer Bahadur Singh Purvanchal University, Jaunpur</h3>
+          <p class="degree">Commerce</p>
+          <p class="year">2013 - 2015</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+      <div class="container">
+        <h2>Core Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-tag">Warehouse Operations</div>
+          <div class="skill-tag">Supply Chain Management</div>
+          <div class="skill-tag">Logistics Management</div>
+          <div class="skill-tag">Team Leadership</div>
+          <div class="skill-tag">Operations Management</div>
+          <div class="skill-tag">Cost Optimization</div>
+          <div class="skill-tag">Process Improvement</div>
+          <div class="skill-tag">Analytical Skills</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>© 2026 Nitesh Mishra. Professional Portfolio</p>
+        <p class="connections">500+ Professional Connections</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Floating Chat Button -->
+  <div class="chat-fab" id="chatFab">
+    <svg class="chat-icon" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+    </svg>
+  </div>
+  
+  <div class="chat-menu" id="chatMenu">
+    <div class="chat-menu-header">
+      <h3>Let's Connect!</h3>
+      <button class="close-chat" id="closeChat">×</button>
+    </div>
+    <div class="chat-options">
+      <a href="https://wa.me/918169913629?text=Hi%20Nitesh%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!" target="_blank" class="chat-option whatsapp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        <div>
+          <strong>WhatsApp</strong>
+          <span>Chat instantly</span>
+        </div>
+      </a>
+      <a href="https://www.linkedin.com/in/nitesh-mishra-188ab3131/" target="_blank" class="chat-option linkedin">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+        </svg>
+        <div>
+          <strong>LinkedIn</strong>
+          <span>Professional network</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
